@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Sixtyfour', monospace;
+}
+
+body {       
+    background-color: black;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    text-shadow: 0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green,
+        0 0 70px green;
+}
+.pole{
+    color:white;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid green;
+    padding: 20px;
+    font-size: 90px;
+    width: 150px;
+    height:150px;
+    box-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px green,
+    0 0 40px green;
+
+    border-radius:10px;
+
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green,
+        0 0 70px green;
+        
+}
+.pole:hover{
+    box-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px lime,
+    0 0 30px lime,
+    0 0 35px lime;
+}
+.wybierz{
+    height:50px;
+    width:50px;
+}
+.krzyżyk{
+    height:50px;
+    width:50px;
+}
+.kółko{
+    height:50px;
+    width:50px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    width: 600px;
+}
+.containter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.butt{
+    padding-top: 30px;
+    color: white;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green,
+        0 0 70px green;
+    border-color: green;
+    box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px green,
+        0 0 35px green;
+    background-color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Sixtyfour', monospace;
+    display:none;
+    
+}
+.butt:hover{
+    box-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px lime,
+    0 0 40px lime;
+    
+    font-size: 25px;
+    
+    
+
+}
+.rotating-Text{
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:120px;
+    width:450px;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green,
+        0 0 70px green;
+
+}
+/*all nth into @support
+webkit animation only wiht @support*/
+.rotatingText-content {
+  position: relative;
+  width: 450px;
+  height:100px;
+}
+
+.rotatingText-adjective1{
+  font-family: 'Sixtyfour', monospace;
+  font-size: 40px;
+  left: 0;
+  margin-bottom: 0;
+  margin-top: 30px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  color:white;
+  text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green,
+        0 0 70px green;
+}
+.rotatingText-adjective2{
+    font-family: 'Sixtyfour', monospace;
+    font-size: 40px;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    color:white;
+    text-shadow: 0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px green,
+          0 0 30px green,
+          0 0 40px green,
+          0 0 55px green,
+          0 0 70px green;
+  }
+  .rotatingText-adjective3{
+    font-family: 'Sixtyfour', monospace;
+    font-size: 40px;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    color:white;
+    text-shadow: 0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px green,
+          0 0 30px green,
+          0 0 40px green,
+          0 0 55px green,
+          0 0 70px green;
+  }
+  .rotatingText-adjective4{
+    font-family: 'Sixtyfour', monospace;
+    font-size: 40px;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    color:white;
+    text-shadow: 0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px green,
+          0 0 30px green,
+          0 0 40px green,
+          0 0 55px green,
+          0 0 70px green;
+  }
+
+.rotatingText-adjective1 {
+  -webkit-animation: rotate-text-up 1.5s 0.75s;
+          animation: rotate-text-up 1.5s 0.75s;
+}
+.rotatingText-adjective2 {
+  -webkit-animation: rotate-text-up 1.5s 2s;
+          animation: rotate-text-up 1.5s 2s;
+}
+.rotatingText-adjective3 {
+  -webkit-animation: fade-text-in 1.5s 3.25s forwards;
+          animation: fade-text-in 1.5s 3.25s forwards;
+}
+.rotatingText-adjective4 {
+    -webkit-animation: fade-text-in 1.5s 1.0s forwards;
+            animation: fade-text-in 1.5s 1.0s forwards;
+}
+
+
+
+@-webkit-keyframes rotate-text-up {
+  0% {
+    transform: translate3d(0, 80px, 0);
+    opacity: 0;
+  }
+  20%, 80% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, -40px, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate-text-up {
+  0% {
+    transform: translate3d(0, 80px, 0);
+    opacity: 0;
+  }
+  20%, 80% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, -40px, 0);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-text-in {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 80px, 0);
+  }
+  50%, 100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fade-text-in {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 80px, 0);
+  }
+  50%, 100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
