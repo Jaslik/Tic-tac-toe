@@ -10,8 +10,30 @@
     <script defer src="index.js"></script>
 </head>
 <body> 
-    <div class="containter">
+    <div class = "top">
+        <div class = "h11">
         <h1>Tic-tac-toe</h1>
+        </div>
+        <div class = "history">
+            <table class = "scoreBoard">
+                <tr>
+                    <td>Stats:</td>
+                </tr>
+                <tr>
+                    <td>X Wins: <span class = "Xhistory"></span></td>
+                </tr>
+                <tr>
+                    <td>O Wins: <span class = "Ohistory"></span></td>
+                </tr>
+                <tr>
+                    <td>Draws: <span class = "Draws"></span></td>
+                </tr>
+            </table>
+        </div>     
+    </div>
+    <div class="containter">
+        
+        <canvas id="fireworks"></canvas>
         <div class="grid">
             <div class="pole"></div>
             <div class="pole"></div>
@@ -23,17 +45,18 @@
             <div class="pole"></div>
             <div class="pole"></div>
         </div>
-    <div class = "rotatingText">
-        <div class="rotatingText-content">
-            <p id="jeden"></p>
-            <p id="dwa"></p>
-            <p id="trzy"></p>
-            <p id="cztery"></p>  
+        <div class = "rotatingText">
+        
+            <div class="rotatingText-content">
+                <p id="jeden"></p>
+                <p id="dwa"></p>
+                <p id="trzy"></p>
+                <p id="cztery"></p>  
+            </div>
+    </div>
+        <div>
+            <button class = "butt" onclick = reset()>Play again</button>
         </div>
-    </div>
-    <div>
-        <button class = "butt" onclick = reset()>Play again</button>
-    </div>
     </div>
 </body>
 </html>
